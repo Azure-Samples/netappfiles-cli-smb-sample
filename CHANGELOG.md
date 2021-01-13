@@ -1,4 +1,4 @@
-## Azure NetAppFiles SDK NFSv3/NFSv4.1 Sample CLI
+## Azure NetAppFiles SDK SMB Sample CLI
 
 [1.0.0 (2020-01-13)](#1.0.0 (2020-01-13))
 # 1.0.0 (2020-12-10)
