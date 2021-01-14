@@ -17,7 +17,7 @@ In this sample application we perform the following operations:
 * Creation
   * Azure NetAppFiles Account
   *	Capacity pool 
-  * NFS SMB Volume 
+  * SMB Volume 
  
 * Deletion, the clean up process takes place (not enabled by default, please set the parameter SHOULD_CLEANUP to true if you want the clean up code to take a place),deleting all resources in the reverse order following the hierarchy otherwise we can't remove resources that have nested resources still live.
 
@@ -70,3 +70,4 @@ The following table describes all files within this solution:
 * [Resource limits for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits)
 * [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart)
 * [Download Azure SDKs](https://azure.microsoft.com/downloads/)
+* [Azure CLI docker](https://docs.microsoft.com/en-us/cli/azure/run-azure-cli-docker)
