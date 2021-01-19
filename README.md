@@ -15,18 +15,18 @@ This project demonstrates how to deploy SMB protocol type volume using Azure CLI
 In this sample application we perform the following operations:
 
 * Creation
-  * Azure NetAppFiles Account
+  * NetApp account
   *	Capacity pool 
-  * SMB Volume 
+  * SMB volume 
  
-* Deletion, the clean up process takes place (not enabled by default, please set the parameter SHOULD_CLEANUP to true if you want the clean up code to take a place),deleting all resources in the reverse order following the hierarchy otherwise we can't remove resources that have nested resources still live.
-
+* Deletion   
+	The clean-up process takes place, deleting all resources in the reverse order following the hierarchy.  Otherwise, we can't remove resources that have nested resources still live. (The clean-up process is not enabled by default. You need to set the parameter SHOULD_CLEANUP to true if you want the clean-up code to take a place)
 
 If you don't already have a Microsoft Azure subscription, you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212).
 
 ## Prerequisites
 
-1. Azure Subscription
+1. Azure subscription
 1. Subscription needs to be enabled for Azure NetApp Files. For more information, please refer to [this](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-register#waitlist) document.
 1. Resource Group created
 1. Virtual Network with a delegated subnet to Microsoft.Netapp/volumes resource. For more information, please refer to [Guidelines for Azure NetApp Files network planning](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies)
@@ -45,12 +45,12 @@ The following table describes all files within this solution:
 
 # How to run the CLI script
 
-1. Clone it locally
+1. Clone the script locally: 
     ```powershell
     git clone https://github.com/Azure-Samples/netappfiles-cli-smb-sample.git
     ```
 	
-1. Open a bash session and execute the following Run the script
+1. Open a bash session and execute the following Run the script: 
 
 	 * Change folder to **netappfiles-cli-smb-sample\src\**
 	 * Open CreateANFVolume.sh and edit all the parameters
